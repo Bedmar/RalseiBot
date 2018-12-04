@@ -43,7 +43,7 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(['https://ibb.co/F8Mjr9D']))
     if message.content == '!rhelp2':
         await client.send_message(message.channel, random.choice(['https://ibb.co/F8Mjr9D']))
-      if message.content == '!rhelp3':
+    if message.content == '!rhelp3':
         await client.send_message(message.channel, random.choice(['https://ibb.co/JQcgRCz']))
     if message.content == '!ralseihelp3':
         await client.send_message(message.channel, random.choice(['https://ibb.co/JQcgRCz']))
@@ -139,19 +139,19 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
     if message.content == '!ralsei que tal el dia?':
         await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
-   if message.content == '!ralsei te quiero':
+    if message.content == '!ralsei te quiero':
         await client.send_message(message.channel, random.choice(['https://ibb.co/FsKQ8N5']))
-   if message.content == '!ralsei te quiero mucho':
+    if message.content == '!ralsei te quiero mucho':
         await client.send_message(message.channel, random.choice(['https://ibb.co/qDPgdWZ']))
-   if message.content == '!ralsei que tal el dia':
+    if message.content == '!ralsei que tal el dia':
         await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
-   if message.content == '!ralsei que tal el dia?':
+    if message.content == '!ralsei que tal el dia?':
         await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
-   if message.content == '!ralsei gracias':
+    if message.content == '!ralsei gracias':
         await client.send_message(message.channel, random.choice(['https://ibb.co/r2FrKkN']))
-   if message.content == '!ralsei abrazame':
+    if message.content == '!ralsei abrazame':
         await client.send_message(message.channel, random.choice(['https://ibb.co/rfgnfPv','https://ibb.co/RSnzzqH','https://ibb.co/B3K42bZ','https://ibb.co/jVQv35X','https://ibb.co/0BvzBb2']))
-   if message.content == '!rabrazame':
+    if message.content == '!rabrazame':
         await client.send_message(message.channel, random.choice(['https://ibb.co/rfgnfPv','https://ibb.co/RSnzzqH','https://ibb.co/B3K42bZ','https://ibb.co/jVQv35X','https://ibb.co/0BvzBb2']))
 
 
