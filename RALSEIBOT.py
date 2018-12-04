@@ -153,15 +153,12 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(['https://ibb.co/rfgnfPv','https://ibb.co/RSnzzqH','https://ibb.co/B3K42bZ','https://ibb.co/jVQv35X','https://ibb.co/0BvzBb2']))
     if message.content == '!rabrazame':
         await client.send_message(message.channel, random.choice(['https://ibb.co/rfgnfPv','https://ibb.co/RSnzzqH','https://ibb.co/B3K42bZ','https://ibb.co/jVQv35X','https://ibb.co/0BvzBb2']))
-
-
-
-
-
-
-
-
-
+    if message.content == '!rfag':
+        await client.send_message(message.channel, random.choice(['https://www.youtube.com/watch?v=PNups4pAPr8']))
+    if message.content == '!reaster':
+        await client.send_message(message.channel, random.choice(['https://ibb.co/CJDBfXC']))
+    if message.content == '!regg':
+        await client.send_message(message.channel, random.choice(['https://ibb.co/MD8vvkm']))
 
 
 
