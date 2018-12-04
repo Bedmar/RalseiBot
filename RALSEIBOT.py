@@ -129,10 +129,8 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(['https://i.redd.it/dn5w5bsp5tv11.jpg']))
     if message.content == '!rthot':
         await client.send_message(message.channel, random.choice(['https://i.pinimg.com/236x/35/e1/74/35e174321552479d2bc1cea180f8d59a.jpg']))
-
-
-
-
+    if message.content == '!rping':
+        await client.send_message(message.channel, random.choice(['https://ibb.co/SxbZ8gK']))
 
 
 
