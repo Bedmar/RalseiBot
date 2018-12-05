@@ -135,10 +135,6 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(['https://i.pinimg.com/236x/35/e1/74/35e174321552479d2bc1cea180f8d59a.jpg']))
     if message.content == '!rping':
         await client.send_message(message.channel, random.choice(['https://ibb.co/SxbZ8gK']))
-    if message.content == '!ralsei que tal el dia':
-        await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
-    if message.content == '!ralsei que tal el dia?':
-        await client.send_message(message.channel, random.choice(['hhttps://ibb.co/sWyC6m0','https://ibb.co/7yYzdLY']))
     if message.content == '!ralsei te quiero':
         await client.send_message(message.channel, random.choice(['https://ibb.co/FsKQ8N5']))
     if message.content == '!ralsei te quiero mucho':
