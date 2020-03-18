@@ -1,27 +1,3 @@
-# Made By Deeply
-# Invite = https://discordapp.com/oauth2/authorize?client_id=577013437603905538&permissions=8&scope=bot
- 
- 
-import discord
-from discord.ext.commands import *
-from discord.ext import commands
-import random
-import asyncio
-import time
-import json
-from itertools import cycle
-import time
-from threading import Thread
-from random import randint
-import datetime
-import os
-import aiohttp
-import sys
-import traceback
-import json
-from discord.utils import get
- 
- 
 ##PREFIX##
  
 bot = commands.Bot(command_prefix='!')
